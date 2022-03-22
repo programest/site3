@@ -1,0 +1,16 @@
+.menu {
+	padding-bottom: 322px;
+	padding-top: 30px;
+	.menu__info {
+		margin: 0 15px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		.menu__item {
+			color: #ffffff;
+			font-weight: 600;
+			font-size: 18px;
+			line-height: 27px;
+		}
+	}
+}

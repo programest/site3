@@ -1,0 +1,30 @@
+@import "_null";
+@import "_header";
+@import "_main";
+@import "_footer";
+@import "_adaptivity";
+.container {
+	max-width: 1110px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,600;0,900;1,100;1,300;1,500;1,700;1,900&display=swap");
+
+body {
+	font-family: "Poppins", sans-serif;
+	background: url(../img/ФОН.png) top no-repeat, #1c1b21;
+	overflow-x: hidden;
+}
+%main__block {
+	width: 350px;
+	height: 300px;
+	display: flex;
+	align-items: flex-end;
+}
+%footer {
+	font-size: 18px;
+	line-height: 27px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+/*----------------------- Thats's all for today ------------------------------ */

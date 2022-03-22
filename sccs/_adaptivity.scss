@@ -1,0 +1,260 @@
+@media (max-width: 1281px) {
+	.container {
+		max-width: 970px;
+	}
+	.ticket:nth-child(3) {
+		display: none;
+	}
+	.rectangle1 {
+		right: 115px;
+	}
+	.rectangle {
+		left: 90px;
+	}
+}
+@media (max-width: 1109px) {
+	.container {
+		max-width: 870px;
+	}
+	.blocks__images {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-right: 260px;
+		.block__image {
+			max-height: 1100px;
+			max-width: 540px;
+			.item__text {
+				position: absolute;
+				top: 870px;
+				left: 395px;
+				font-weight: bold;
+				font-size: 24px;
+				line-height: 36px;
+				color: #7a66cc;
+			}
+			.item:nth-child(1) {
+				order: 2;
+			}
+			.item:nth-child(5) {
+				order: 2;
+			}
+		}
+	}
+	.blocks__tracks-info {
+		flex-direction: column;
+	}
+	.blocks__tracks {
+		margin-left: 100px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.blocks__tracks-img {
+		margin-bottom: 60px;
+	}
+	.blocks__tracks-img {
+		margin-right: 0px;
+	}
+	.for__me {
+		flex-direction: column;
+		display: flex;
+	}
+	.block__for-me {
+		margin-right: 0px;
+	}
+	.main__blocks {
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	}
+	.menu__item {
+		display: none;
+	}
+	%main__block {
+		margin-right: 30px;
+		margin-bottom: 30px;
+	}
+	.header__burger {
+		display: block;
+		position: relative;
+		height: 20px;
+		width: 30px;
+		position: relative;
+		z-index: 5;
+	}
+	.header__burger:before,
+	.header__burger:after {
+		content: "";
+		background-color: #ffff;
+		position: absolute;
+		width: 100%;
+		height: 2px;
+		left: 0;
+	}
+	.header:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		z-index: 3;
+	}
+	.header__burger:before {
+		top: 0;
+	}
+	.header__burger span {
+		background-color: #ffff;
+		position: absolute;
+		width: 100%;
+		height: 2px;
+		left: 0;
+		top: 9px;
+	}
+	.header__burger:after {
+		bottom: 0;
+	}
+	.main-br2 {
+		max-width: 30px;
+	}
+	.vertical-br {
+		max-height: 20px;
+	}
+	.main-br {
+		max-width: 650px;
+		min-height: 2px;
+		background: #ffffff;
+	}
+	.br__text {
+		display: inline-block;
+		width: 120px;
+		height: 30px;
+	}
+}
+@media (max-width: 768px) {
+	.ticket:nth-child(2) {
+		display: none;
+	}
+	.block__text-images {
+		position: relative;
+	}
+	.item__text {
+		position: absolute;
+		top: 150px;
+		left: 195px;
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 36px;
+		color: #7a66cc;
+	}
+	.main-br2 {
+		max-width: 30px;
+	}
+	.vertical-br {
+		max-height: 20px;
+	}
+	.main-br {
+		max-width: 400px;
+		min-height: 2px;
+		background: #ffffff;
+	}
+	.for__me-section {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 40px;
+		align-items: center;
+	}
+	.block__for-me {
+		padding: 0 50px;
+		.block__for-item {
+			display: flex;
+			margin-bottom: 60px;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+	.blocks__popularity {
+		padding: 0 80px;
+		.blocks__popular-frame {
+			flex-direction: column;
+		}
+		.blocks__popular-text {
+			margin-left: 80px;
+			margin-top: 50px;
+			.blocks__popular-quote {
+				margin-right: 0px;
+			}
+		}
+		.blocks__popular-img {
+			position: relative;
+			right: 0px;
+			top: 0px;
+			margin: 40px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+	}
+	.main__zagalovok {
+		margin: 0 40px;
+	}
+	.menu {
+		margin: 0 40px;
+	}
+	.tracks__text {
+		flex-wrap: wrap;
+	}
+	.main__blocks {
+		margin-top: 90px;
+	}
+}
+@media (max-width: 637px) {
+	.container {
+		max-width: 300px;
+		margin: 0 auto;
+	}
+	.block__footer-text1 {
+		flex-direction: column;
+		margin-left: 130px;
+	}
+	.block__footer-text2 {
+		flex-direction: column;
+	}
+	.rectangle {
+		position: relative;
+		margin-right: 120px;
+		margin-bottom: 400px;
+	}
+	.rectangle1 {
+		position: relative;
+		margin-left: 120px;
+	}
+	.blocks__images {
+		display: none;
+	}
+	.hitman {
+		display: block;
+	}
+	.block__img-for {
+		margin-bottom: 300px;
+	}
+	.block-img1 {
+		position: absolute;
+		top: 0px;
+		right: 95px;
+	}
+	.block-img2 {
+		display: none;
+	}
+	.blocks__popularity {
+		padding: 0 20px;
+	}
+	.icon {
+		margin-bottom: 30px;
+	}
+	.block__tickets {
+		margin-left: 200px;
+	}
+}

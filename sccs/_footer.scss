@@ -1,0 +1,53 @@
+footer {
+	flex: 1 1 0;
+}
+.footer__info {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	.block__footer-text1 {
+		display: flex;
+	}
+	.block__footer-text2 {
+		display: flex;
+		margin-bottom: 60px;
+		margin-left: 130px;
+	}
+	.footer__info-zag {
+		@extend %footer;
+		margin-right: 30px;
+		font-weight: 600;
+	}
+
+	.footer__info-text {
+		@extend %footer;
+		font-weight: 400;
+	}
+	.footer__info-img {
+		margin-bottom: 60px;
+	}
+
+	.footer__icons {
+		margin-bottom: 100px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		.icon {
+			margin-right: 30px;
+		}
+	}
+	.footer__end {
+		margin-bottom: 40px;
+		.footer__end-text {
+			font-size: 13px;
+			line-height: 19px;
+			text-align: center;
+			text-transform: uppercase;
+			color: #ffffff;
+			opacity: 0.5;
+		}
+	}
+}
+/*----------------------- Thats's all for today ------------------------------ */
